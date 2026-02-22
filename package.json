@@ -1,15 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.php",
-      "use": "@vercel/php"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.php"
-    }
-  ]
-}
+  "name": "att-login-page",
+  "version": "1.0.0",
+  "description": "AT&T Login Page",
+  "main": "index.php", // CRITICAL: Must match filename
+  "scripts": {
+    "dev": "php -S localhost
