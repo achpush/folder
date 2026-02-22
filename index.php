@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // Initialize variables
 \$error_message = '';
 \$username = '';
@@ -48,14 +50,7 @@ if (\$_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .logo-text {
-            font-size: 32px;
-            font-weight: 300;
-            color: #0066cc;
-            margin-bottom: 30px;
-            text-align: center;
-            letter-spacing: -1px;
-        }
-
+            font-size: 
         .form-group {
             margin-bottom: 20px;
         }
