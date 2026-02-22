@@ -1,7 +1,13 @@
 {
-  "name": "att-login-page",
+  "name": "att-login-node",
   "version": "1.0.0",
   "description": "AT&T Login Page",
-  "main": "index.php", // CRITICAL: Must match filename
+  "main": "api/login.js",
   "scripts": {
-    "dev": "php -S localhost
+    "dev": "vercel dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^1^.0.0"
+  }
+}
